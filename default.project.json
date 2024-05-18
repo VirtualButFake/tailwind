@@ -1,0 +1,7 @@
+{
+	"name": "tailwind",
+    "emitLegacyScripts": false,
+	"tree": {
+		"$path": "build"
+	}
+}
