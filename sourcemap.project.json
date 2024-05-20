@@ -1,14 +1,9 @@
 {
 	"name": "tailwind",
 	"tree": {
-		"$className": "DataModel",
-		"ReplicatedStorage": {
-			"Packages": {
-				"$path": "packages",
-				"tailwind": {
-					"$path": "src"
-				}
-			}
+		"$path": "packages",
+		"Tailwind": {
+			"$path": "src"
 		}
 	}
 }
