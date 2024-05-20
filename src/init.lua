@@ -287,9 +287,9 @@ local tailwindColors = {
 		[900] = Color3.fromHex("#18181b"),
 		[950] = Color3.fromHex("#09090b"),
 	},
-} :: tailwindColors
+}
 
-for _, color: { [number]: Color3 } | Color3 in tailwindColors do
+for _, color: { [number]: Color3 } | Color3 in tailwindColors :: tailwindColors do
 	if typeof(color) == "table" then
 		setmetatable(color, {
 			__index = function(self, unknownIndex: number): Color3?
