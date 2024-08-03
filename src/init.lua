@@ -304,7 +304,7 @@ for _, color: { [number]: Color3 } | Color3 in tailwindColors :: tailwindColors 
 
 				for _, index in sortedIndices do
 					local shade = self[index]
-                    
+
 					if lastShade ~= nil and unknownIndex > lastShade and unknownIndex < index then
 						local percent = (unknownIndex - lastShade) / (index - lastShade)
 						local lerpedColor = self[lastShade]:Lerp(shade, percent)
