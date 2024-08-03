@@ -1,15 +1,15 @@
 [package]
 name = "virtualbutfake/tailwind"
 description = "Tailwind colors in Luau"
-version = "0.1.0"
+version = "0.1.1"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 include = [
-    "build",
-    "build/**",
+    "dist",
+    "dist/**",
     "LICENSE.md",
     "wally.toml",
     "default.project.json"
 ]
-exclude = ["*", "build.rbxl"]
+exclude = ["*", "build.rbxm"]
 [dependencies]

@@ -1,9 +1,10 @@
 {
 	"name": "tailwind",
 	"tree": {
-		"$path": "packages",
-		"Tailwind": {
+		"$className": "Folder",
+		"tailwind": {
 			"$path": "src"
-		}
+		},
+		"$path": "packages"
 	}
 }

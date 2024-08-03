@@ -3,16 +3,6 @@
 registry = "test"
 
 [[package]]
-name = "elttob/fusion"
-version = "0.2.0"
+name = "virtualbutfake/tailwind"
+version = "0.1.0"
 dependencies = []
-
-[[package]]
-name = "virtualbutfake/fusionutils"
-version = "0.0.136"
-dependencies = [["fusion", "elttob/fusion@0.2.0"]]
-
-[[package]]
-name = "virtualbutfake/themeframework"
-version = "0.0.1"
-dependencies = [["fusion", "elttob/fusion@0.2.0"], ["fusionUtils", "virtualbutfake/fusionutils@0.0.136"]]

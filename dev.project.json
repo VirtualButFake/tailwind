@@ -1,14 +1,14 @@
 {
 	"name": "tailwind",
-	"emitLegacyScripts": false,
 	"tree": {
 		"$className": "DataModel",
 		"ReplicatedStorage": {
 			"Packages": {
-				"$path": "packages",
+				"$className": "Folder",
 				"tailwind": {
-					"$path": "build"
-				}
+					"$path": "dist"
+				},
+				"$path": "packages"
 			}
 		}
 	}

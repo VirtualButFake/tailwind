@@ -1,7 +1,6 @@
 {
 	"name": "tailwind",
-    "emitLegacyScripts": false,
 	"tree": {
-		"$path": "build"
+		"$path": "dist"
 	}
 }
